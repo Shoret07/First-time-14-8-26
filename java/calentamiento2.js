@@ -9,13 +9,23 @@
 function calcularImpuestos(edad, ingresos) {
     let gabi=0;    
     if(edad >= 18 && ingresos >= 1000){
-        gabi = (ingresos * 0.40); 
-    }
-    return gabi;
+            gabi = (ingresos * 0.40); 
+     }
+     return gabi;
 }
 
-// 📌 Feedback Docente (Profesor Axel):
-// 1. Ojo con los parámetros en la llamada: en JS no se usa sintaxis `edad=18` al invocar, se pasan los valores posicionales `calcularImpuestos(18, 1000)`.
-// 2. Usá nombres de variables expresivos en camelCase (`const impuestos = ...`) en lugar de `gabi`.
+// Muy bien resuelto. Para acostumbrarnos a la estructura limpia de variable auxiliar con valor por defecto y retorno único al final:
+
+function calcularImpuestos(edad, ingresos) {
+    let impuesto = 0; // Valor por defecto
+
+    if (edad >= 18 && ingresos >= 1000) {
+        impuesto = ingresos * 0.4;
+    }
+
+    return impuesto;
+}
 
 console.log(calcularImpuestos(18, 1000));
+console.log(calcularImpuestos(40, 10000));
+console.log(calcularImpuestos(17, 5000));
