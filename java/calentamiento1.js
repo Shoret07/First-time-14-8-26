@@ -4,5 +4,11 @@ function contrasenaValida(str) {
       JUAN=true;
     }
     return JUAN;
-  
-}console.log(contrasenaValida("2Fj(jjbFsuj"));
+}
+
+// 📌 Feedback Docente (Profesor Axel):
+// 1. Ojo con el nombre de variables: Usaste 'JUAN' en mayúsculas. En JS por convención las mayúsculas se reservan para constantes globales (ej. MATH_PI). Usá 'const esValida' o 'let esValida' en camelCase.
+// 2. Podés simplificar retornando directamente la expresión booleana:
+// return str === "2Fj(jjbFsuj" || str === "eoZiugBf&g9";
+
+console.log(contrasenaValida("2Fj(jjbFsuj"));
