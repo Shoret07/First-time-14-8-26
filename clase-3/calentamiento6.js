@@ -5,12 +5,19 @@
 // ==============================================================================
 
 function imprimirArreglo(arreglo) {
-    for(let i=0; i < arreglo.length; i++){
-      console.log(arreglo[i]);
+    for (let i = 0; i < arreglo.length; i++) {
+        console.log(arreglo[i]);
+    }
+}
+imprimirArreglo(["hola", "2", "4", "89", "recien", "entiendo", "esto"]);
+
+// 📌 Feedback Docente (Profesor Axel):
+// Impecable iteración sobre el arreglo.
+
+function imprimirArreglo(arreglo) {
+    for (let i = 0; i < arreglo.length; i++) {
+        console.log(arreglo[i]);
     }
 }
 
-// 📌 Feedback Docente (Profesor Axel):
-// Muy bien resuelto el recorrido del arreglo con bucle `for` e indexación `arreglo[i]`.
-
-imprimirArreglo(["hola","2","4","89","recien","entiendo","esto"]);
+imprimirArreglo([1, "Hola", 2, "Mundo"]);

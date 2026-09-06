@@ -7,14 +7,17 @@
 // ==============================================================================
 
 function calcularImpuestos(edad, ingresos) {
-    let gabi=0;    
-    if(edad >= 18 && ingresos >= 1000){
-            gabi = (ingresos * 0.40); 
-     }
-     return gabi;
+    let gabi = 0;
+    if (edad >= 18 && ingresos >= 1000) {
+        gabi = (ingresos * 0.40);
+    }
+    return gabi;
 }
+console.log(calcularImpuestos(edad=18, ingresos=1000));
 
-// Muy bien resuelto. Para acostumbrarnos a la estructura limpia de variable auxiliar con valor por defecto y retorno único al final:
+// 📌 Feedback Docente (Profesor Axel):
+// Muy bien resuelto. Ojo con la llamada de la función: en JS pasamos directamente los valores posicionales `calcularImpuestos(18, 1000)` en lugar de `edad=18`.
+// Te dejo la solución con nombres de variables expresivos:
 
 function calcularImpuestos(edad, ingresos) {
     let impuesto = 0; // Valor por defecto
@@ -26,6 +29,7 @@ function calcularImpuestos(edad, ingresos) {
     return impuesto;
 }
 
-console.log(calcularImpuestos(18, 1000));
-console.log(calcularImpuestos(40, 10000));
-console.log(calcularImpuestos(17, 5000));
+console.log(calcularImpuestos(18, 1000));  
+console.log(calcularImpuestos(40, 10000)); 
+console.log(calcularImpuestos(17, 5000));  
+console.log(calcularImpuestos(30, 500));
