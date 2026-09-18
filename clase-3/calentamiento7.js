@@ -1,0 +1,13 @@
+function numeroDeCaracteres(str, caracter) {
+    let contador = 0;
+
+    for (let n = 0; n < str.length; n++) {
+        if (str[n] === caracter) {
+            contador++;
+        }
+    }
+
+    return contador;
+}
+console.log(numeroDeCaracteres("horoscopo", "o"));
+
