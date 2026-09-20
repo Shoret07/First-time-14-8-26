@@ -4,6 +4,10 @@
 
 ---
 
+# Nota por Profesor Axel 20/11:
+Hola Gabriel! Ya te corregí todo lo entregado en este repositorio. En términos generales, la resolución de los ejercicios está muy bien. De todas formas me gustaría en la siguiente clase que nos sentaramos a conversar un poco sobre como venís con la materia, y que me preguntes todas las dudas que tengas. Buena Semana !
+
+
 # Nota por Profesor Axel:
 
 Hola Gabriel! Buen avance resolviendo los calentamientos 1 a 6. Reorganizé la estructura de carpetas de tu repositorio creando `clase-1/` (con `cuadrado.html`) y `clase-3/` (con tus archivos de JS).
@@ -19,3 +23,5 @@ Hola Gabriel! Buen avance resolviendo los calentamientos 1 a 6. Reorganizé la e
 - ⏳ Pendiente: Calentamientos 7-8, Ejercicios 9 a 13 e integración `peaje.js`.
 
 Seguí practicando y cualquier duda me consultás en la próxima clase!
+
+

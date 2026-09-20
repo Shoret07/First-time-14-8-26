@@ -14,3 +14,5 @@ function simularReportePing(intentosMaximos) {
     
 }console.log(simularReportePing(5));
 
+// 📌 Feedback Docente (Profesor Axel):
+// Bien pensado el uso del operador módulo (`%`) para detectar múltiplos de 5 y de 2. Ojo con declarar la variable del bucle `i`: siempre usá `let i = 1` para evitar declarar variables globales accidentales.

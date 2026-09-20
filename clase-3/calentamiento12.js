@@ -19,3 +19,5 @@ function procesarCompraMovil(precioBase, descuentoPct) {
 
 console.log(procesarCompraMovil(1000, 10));
 
+// 📌 Feedback Docente (Profesor Axel):
+// ¡Excelente resolución! Demostrás dominar funciones anidadas, expresiones de función (`const sumarIva`), funciones flecha (`const redondear`) y composición de funciones. Impecable.

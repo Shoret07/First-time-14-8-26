@@ -11,3 +11,6 @@ function numeroDeCaracteres(str, caracter) {
 }
 console.log(numeroDeCaracteres("horoscopo", "o"));
 
+// Feedback Docente (Profesor Axel):
+// ¡Excelente lógica! Recorriste el string correctamente como un arreglo de caracteres con str.length e incrementaste el contador.
+

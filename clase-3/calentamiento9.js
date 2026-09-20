@@ -7,3 +7,6 @@ function calcularEstadisticasDescarga(cantArchivos, tamanoPromedioMB) {
 
 }
 console.log(calcularEstadisticasDescarga("18","19"));
+
+// 📌 Feedback Docente (Profesor Axel):
+// Muy buena conversión explícita de tipos con `Number()` y cálculo de KBs. ¡Gran trabajo!
